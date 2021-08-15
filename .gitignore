@@ -1,0 +1,37 @@
+# Root
+.env
+.vscode
+/data/mysql/*
+!/data/mysql/.gitkeep
+/logs/apache2/*
+!/logs/apache2/.gitkeep
+/logs/mysql/*
+!/logs/mysql/.gitkeep
+.DS_Store
+
+# www
+www/node_modules
+www/public/hot
+www/public/storage
+www/storage/*.key
+www/storage/*.pem
+www/storage/*.ppk
+www/storage/framework
+www/storage/logs/*
+www/storage/lists/complete/*
+www/storage/lua
+www/vendor
+www/.env
+www/.env.backup
+www/.phpunit.result.cache
+www/Homestead.json
+www/Homestead.yaml
+www/npm-debug.log
+www/yarn-error.log
+www/public/css/*
+www/public/img/*
+www/public/js/*
+www/public/fonts/*
+www/public/vendor/*
+www/composer.lock
+www/package-lock.json
