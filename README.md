@@ -3,7 +3,7 @@
     <br>E-Commerce Book Store<br/>
 </h1>
 <h3 align="center">
-  <img alt="PHP" src=".github/img/php8.png" height="100px" /> 8.0.7 | MySQL 8.0 | Doctrine ORM 2.6 | Bootstrap 5.1
+  <img alt="PHP" src=".github/img/php8.png" height="15px" /> 8.0.7 | MySQL 8.0 | Doctrine ORM 2.6 | Bootstrap 5.1
 </h3>
 
 
