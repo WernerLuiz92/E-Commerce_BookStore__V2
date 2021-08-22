@@ -1,53 +1,106 @@
-# E-Commerce_BookStore__V2
+<h1 align="center">
+    <img alt="Logo" src=".github/logo.png" height="100px" />
+    <br>E-Commerce Book Store<br/>
+    PHP 8.0.7 | MySQL 8.0 | Doctrine 2.6
+</h1>
 
-## Como executar o projeto?
+<p align="center">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
+    <img alt="GitHub" src="https://img.shields.io/github/license/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge"><br/>
+    <img alt="GitHub" src="https://img.shields.io/github/v/tag/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge"><br/>
+    
+</p>
 
-  ### Esta primeira parte é para executar os containers do projeto.
- - Faça clone do repositório e em seguida no seu terminal acesse a pasta raíz do projeto e certifique-se de estar na branch master.
- - Certifique-se de que o Docker e docker-compose estão instalados.
- - Copie o arquivo `sample.env` e renomeie-o para `.env` e ajuste-o conforme as instruções contidas nele.
-   - Caso possua outros containers, ou serviços como apache2, nginx, mySql ou outros instalados. Pode ser necessário alterar algumas dessas configurações no  `.env` para evitar conflitos, mas, você pode optar por interromper os serviços temporariamente enquanto testa a aplicação.
- - Através do terminal siga os passos a seguir:
+<p align="center">
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.bookstore.com">E-Commerce - www.bookstore.com</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-  ### Para executar a aplicação em si siga os passos a seguir:
+<p align="center">
+    <img alt="Home Page" src=".github/HomePage_Screen.jpg" />
+<p>
 
-  [Executando a aplicação](www/README.md)
+## Sobre o Projeto
 
-## Fazendo build dos containers
+O _BookStore_ é um projeto desenvolvido como aprendizado, experiência e vivência na área de programação Web. Pensado para ser um plataforma de vendas online do tipo _E-Commerce_. Desenvolvido para ser simples e fácil de utilizar e entender.
 
-No seu terminal, dentro da pasta raiz do projeto.
+### Liguagem e Padrões
 
-Execute:
+Utilizando a linguagem de programação PHP na sua versão mais recente (8.0.7) com o banco de dados MySQL também em sua versão mais recente. O projeto segue os padrões de desenvolvimento web modernos. Seguindo o paradigma de Programação Orientada a Objetos e o padrão Model View Controller. Também foi atentado para seguir todas os padrões das PSRs do PHP.
+
+### Frameworks
+
+O projeto preza por ser mais purista do PHP pois seu proposito é o aprendizado desta linguagem. Por este motivo, optei apenas por utilizar apenas o Doctrine ORM para fazer o Mapeamento Objeto Relacional do Banco de Dados.
+
+### _Mas, por que BookStore??_
+
+Eu amo livros e quando precisei escolher um tema para meu E-Commerce não pensei duas vezes. É considerado um habito muito saudável ler, pois mantém nossa mente ativa e com saude.
+
+"A leitura de conteúdos de boa qualidade alarga os horizontes da pessoa e amplia as suas possibilidades pela expansão de seu conhecimento, desenvolvimento intelectual e de sua visão de mundo, fortalecendo as convicções pessoais, a capacidade de argumentação e manifestação de opiniões com utilização de um vocabulário mais rico." - Wikipedia
+
+Logo devemos incentivar a leitura, nos incentivar a ler, mesmo que seja um rótulo de shampoo, ou um artigo de jornal velho.
+
+### O Projeto
+
+Este projeto foi proposto durante o curso _Técnico em Informática_, pelo professor [Dionatan Henrique Santos](#) na turma 424 - competencia C4C4 na [Escola Técnica Estadual 25 de Julho](https://escola25dejulho.com.br/tecnico.php?id=1).
+
+## Tecnologias Utilizadas
+
+- [Axios](https://github.com/axios/axios)
+- [Date-fns](https://date-fns.org/)
+- [Express](https://expressjs.com/)
+- [MySQL](https://www.mysql.com/)
+- [Node.js](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [ReactJS](https://reactjs.org/)
+- [SCSS](https://sass-lang.com/)
+- [Styled Components](https://styled-components.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Yarn](https://yarnpkg.com/)
+
+## Como Executar o Projeto
+
+- ### _Pré-requisitos_
+
+  - É _necessário_ possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador.
+  - É _necessário_ possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador.
+  - Também, é _preciso_ ter um gerenciador de pacotes seja o **[Yarn](https://yarnpkg.com/)** ou **[NPM](https://www.npmjs.com/)**.
+  - Por fim, é _essencial_ ter o **[MySQL](https://www.mysql.com/)** instalado na máquina.
+
+1. Faça um clone do repositório:
 
 ```sh
-docker-compose build
+  $ git clone https://github.com/WernerLuiz92/URL_Shortener_Pitu.git
 ```
 
-Isso irá fazer build das imagens necessárias para o projeto.
-
-## À todo vapor
-
-Agora vamos dar start nos motores e fazer a contagem regressiva para o lançamento.
-
-Execute:
+2. Executando a Aplicação:
 
 ```sh
-docker-compose up
+  # API
+  $ cd backend
+  # Instalando as dependências do projeto.
+  $ npm install # yarn install
+  # Inicie a API
+  $ npm start # ou yarn start
+
+  # CONEXÃO COM BANCO DE DADOS MYSQL
+  # backend > database.ts
+  # mysql://<USUARIO>:<SENHA_MY_SQL>@<SUA_URL>:3306/<NOME_DO_BANCO_DE_DADOS>
+
+  # APLICAÇÃO WEB
+  $ cd frontend
+  # Instalando as dependências do projeto.
+  $ yarn install # ou npm install
+  # Inicie a aplicação web
+  $ yarn start # ou npm start
 ```
 
-Isso irá iniciar os containers e mostrará em tempo real os logs dos mesmos no seu terminal.
+## Licença
 
-Mas se quiser deixar eles rodando em segundo plano pode executar dessa forma:
-```sh
-docker-compose up -d
-```
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.<br />
+<img alt="License" src="https://img.shields.io/github/license/WernerLuiz92/URL_Shortener_Pitu?style=for-the-badge">
 
-## Parem as máquinas
+---
 
-Para parar de executar os container do projeto é só fazer o seguinte.
-
-Execute:
-
-```sh
-docker-compose down
-```
+<sup>Projeto desenvolvido com a tutoria de [Luiz Duarte](https://github.com/luiztools), da [LuizTools](https://www.luiztools.com.br).</sup>
