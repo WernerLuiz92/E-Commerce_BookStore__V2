@@ -100,7 +100,7 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
   $ yarn start # ou npm start
 ```
 
-## Licença
+## 🖋 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.<br />
 <img alt="License" src="https://img.shields.io/github/license/WernerLuiz92/URL_Shortener_Pitu?style=for-the-badge">
