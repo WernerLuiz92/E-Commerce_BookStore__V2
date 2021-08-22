@@ -1,8 +1,12 @@
 <h1 align="center">
     <img alt="Logo" src=".github/img/logo.png" height="100px" />
     <br>E-Commerce Book Store<br/>
-    PHP 8.0.7 | MySQL 8.0 | Doctrine ORM 2.6
 </h1>
+<h3 align="center">
+  PHP 8.0.7 | MySQL 8.0 | Doctrine ORM 2.6 | Bootstrap 5.1
+</h3>
+
+
 
 <p align="center">
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
