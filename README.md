@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-    &nbsp;&nbsp;&nbsp;| 🔗 &nbsp;&nbsp;&nbsp;<a href="http://www.bookstore.com">E-Commerce - www.bookstore.com</a>&nbsp;&nbsp;&nbsp; 🔗 |&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;|🔗&nbsp;&nbsp;&nbsp;<a href="http://www.bookstore.com">E-Commerce - www.bookstore.com</a>&nbsp;&nbsp;&nbsp;🔗|&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
