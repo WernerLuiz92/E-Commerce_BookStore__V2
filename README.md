@@ -36,7 +36,7 @@ Utilizando a linguagem de programação PHP na sua versão mais recente (8.0.7) 
 
 O projeto preza por ser mais purista do PHP pois seu propósito é o aprendizado desta linguagem. Por este motivo, optei apenas por utilizar o Doctrine ORM para fazer o Mapeamento Objeto Relacional do Banco de Dados.
 
-### _Mas, por que BookStore??_ 📚
+### 💡 _Mas, por que BookStore??_
 
 Eu amo livros e quando precisei escolher um tema para meu E-Commerce não pensei duas vezes. É considerado um hábito muito saudável, pois mantém nossa mente ativa e com saúde.
 
