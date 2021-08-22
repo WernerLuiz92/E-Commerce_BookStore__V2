@@ -63,7 +63,7 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
 - [Typescript](https://www.typescriptlang.org/)
 - [Yarn](https://yarnpkg.com/)
 
-## Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 
 - ### _Pré-requisitos_
 
