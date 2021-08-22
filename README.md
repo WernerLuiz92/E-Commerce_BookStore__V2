@@ -32,7 +32,7 @@ O _BookStore_ é um projeto desenvolvido como aprendizado, experiência e vivên
 
 Utilizando a linguagem de programação PHP na sua versão mais recente (8.0.7) com o banco de dados MySQL também em sua versão mais recente. O projeto segue os padrões de desenvolvimento web modernos. Seguindo o paradigma de Programação Orientada a Objetos e o padrão Model View Controller. Também foi atentado para seguir todas os padrões das PSRs do PHP.
 
-### Frameworks
+### 🛠 Frameworks
 
 O projeto preza por ser mais purista do PHP pois seu propósito é o aprendizado desta linguagem. Por este motivo, optei apenas por utilizar o Doctrine ORM para fazer o Mapeamento Objeto Relacional do Banco de Dados.
 
