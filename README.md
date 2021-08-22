@@ -3,7 +3,7 @@
     <br>E-Commerce Book Store<br/>
 </h1>
 <h3 align="center">
-  🐘 PHP 8.0.7 | MySQL 8.0 | Doctrine ORM 2.6 | Bootstrap 5.1
+  🐘 PHP 8.0.7 | 🐬 MySQL 8.0 | Doctrine ORM 2.6 | Bootstrap 5.1
 </h3>
 
 
