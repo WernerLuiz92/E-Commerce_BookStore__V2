@@ -11,7 +11,7 @@
 
   ### Para executar a aplicação em si siga os passos a seguir:
 
-  (Executando a aplicação)[www/README.md]
+  [Executando a aplicação](www/README.md)
 
 ## Fazendo build dos containers
 
