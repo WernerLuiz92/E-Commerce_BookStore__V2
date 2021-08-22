@@ -24,7 +24,7 @@
     <img alt="Home Page" src=".github/img/HomePage_Screen.jpeg" />
 <p>
 
-## Sobre o Projeto
+## 📝 Sobre o Projeto
 
 O _BookStore_ é um projeto desenvolvido como aprendizado, experiência e vivência na área de programação Web. Pensado para ser um plataforma de vendas online do tipo _E-Commerce_. Desenvolvido para ser simples e fácil de utilizar e entender.
 
@@ -44,7 +44,7 @@ Eu amo livros e quando precisei escolher um tema para meu E-Commerce não pensei
 
 Logo devemos incentivar a leitura, nos incentivar a ler, mesmo que seja um rótulo de shampoo, ou um artigo de jornal velho.
 
-### O Projeto
+### 📝 O Projeto
 
 Este projeto foi proposto durante o curso _Técnico em Informática_, pelo professor [Dionatan Henrique Santos](#), na turma 424 - competência C4C4 na [Escola Técnica Estadual 25 de Julho](https://escola25dejulho.com.br/tecnico.php?id=1).
 
