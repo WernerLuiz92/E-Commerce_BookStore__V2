@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" src=".github/img/logo.pngg" height="100px" />
+    <img alt="Logo" src=".github/img/logo.png" height="100px" />
     <br>E-Commerce Book Store<br/>
     PHP 8.0.7 | MySQL 8.0 | Doctrine 2.6
 </h1>
