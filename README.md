@@ -48,7 +48,7 @@ Logo devemos incentivar a leitura, nos incentivar a ler, mesmo que seja um rótu
 
 Este projeto foi proposto durante o curso _Técnico em Informática_, pelo professor [Dionatan Henrique Santos](#), na turma 424 - competência C4C4 na [Escola Técnica Estadual 25 de Julho](https://escola25dejulho.com.br/tecnico.php?id=1).
 
-## Tecnologias Utilizadas
+## 🧰 Tecnologias Utilizadas
 
 - [Axios](https://github.com/axios/axios)
 - [Date-fns](https://date-fns.org/)
