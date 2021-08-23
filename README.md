@@ -80,7 +80,7 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
 
 ### Aliases 
 
-Se preferir você pode configurar no arquivo de configurações do seu terminal alguns aliases que facilitam a execução do projeto.
+Se preferir você pode configurar no arquivo de configurações do seu terminal ( `~/.zshrc` ou `~/.bashrc` ) alguns aliases que facilitam a execução do projeto.
 
 ```sh
 # BookStore aliases
