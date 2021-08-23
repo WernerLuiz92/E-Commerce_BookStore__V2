@@ -66,13 +66,13 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
     - Opcionalmente você pode optar por instalar um servidor apache ou nginx e o PHP diretamente em seu computador, porém serão necessárias configurações adicionais. Uma alternativa podem ser aplicativos como XAMPP e etc...
   - Por fim, é _essencial_ ter o **[Git](https://git-scm.com/)** instalado e configurado no computador.
 
-1. Faça um clone do repositório:
+### 1. Faça um clone do repositório:
 
 ```sh
   $ git clone https://github.com/WernerLuiz92/E-Commerce_BookStore__V2.git
 ```
 
-2. Executando os conteiners da Aplicação:
+### 2. Executando os conteiners da Aplicação:
 
     Siga os passos deste tutorial:
     
@@ -91,7 +91,7 @@ alias bks-dev="bks-up; code ."
 alias bks-shell="docker container exec -it BookStore-webServer bash"
 ```
 
-3. Executando a Aplicação:
+### 3. Executando a Aplicação:
     
 ```sh
   # Acessando o Shell do container webServer
@@ -108,7 +108,9 @@ alias bks-shell="docker container exec -it BookStore-webServer bash"
     
 ```
 
-🚀🚀🚀 É só acessar [`http://localhost/`](http://localhost/) e pronto
+### 4. Pronto
+    
+É só acessar [`http://localhost/`](http://localhost/) e pronto
     
     
 ## 🖋 Licença
