@@ -74,9 +74,9 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
 
 ### 3. Executando os conteiners da Aplicação:
 
-    Siga os passos deste tutorial:
+Siga os passos deste tutorial:
     
-    [Executando os Containers](.github/docs/containers.md)
+[Executando os Containers](.github/docs/containers.md)
 
 ### 4. Aliases 
 
