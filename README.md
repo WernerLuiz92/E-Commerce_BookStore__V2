@@ -6,7 +6,7 @@
   🐘 PHP 8.0.7 | 🐬 MySQL 8.0 | 🎲 Doctrine ORM 2.6 | 🎨 Bootstrap 5.1
 </h3>
 
-<br/><br/>
+<br/>
 
 <p align="center">
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
@@ -14,15 +14,15 @@
     &nbsp;&nbsp;<img alt="GitHub" src="https://img.shields.io/github/license/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge"><br/><br/>
     <img alt="GitHub" src="https://img.shields.io/github/v/tag/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge"><br/>
 </p>
-
+<br/>
 <p align="center">
     &nbsp;&nbsp;&nbsp;| 🔗&nbsp;&nbsp;&nbsp;<a href="http://www.bookstore.com">E-Commerce - www.bookstore.com</a>&nbsp;&nbsp;&nbsp;🔗 |&nbsp;&nbsp;&nbsp;
 </p>
-
+<br/>
 <p align="center">
     <img alt="Home Page" src=".github/img/HomePage_Screen.jpeg" />
 <p>
-
+<br/>
 ## 📝 Sobre o Projeto
 
 O _BookStore_ é um projeto desenvolvido como aprendizado, experiência e vivência na área de programação Web. Pensado para ser um plataforma de vendas online do tipo _E-Commerce_. Desenvolvido para ser simples e fácil de utilizar e entender.
