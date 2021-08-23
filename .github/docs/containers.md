@@ -16,7 +16,7 @@
 
   ### Para executar a aplicação em produção veja:
 
-  [Executando a aplicação](https://github.com/WernerLuiz92/E-Commerce_BookStore__V2/blob/main/README.md#5-executando-a-aplica%C3%A7%C3%A3o)
+  [Executando a aplicação](https://github.com/WernerLuiz92/E-Commerce_BookStore__V2#-5-executando-a-aplica%C3%A7%C3%A3o)
 
 ## Fazendo build dos containers
 
