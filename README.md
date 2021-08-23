@@ -66,7 +66,7 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
     - Opcionalmente você pode optar por instalar um servidor apache ou nginx e o PHP diretamente em seu computador, porém serão necessárias configurações adicionais. Uma alternativa podem ser aplicativos como XAMPP e etc...
   - Por fim, é _essencial_ ter o **[Git](https://git-scm.com/)** instalado e configurado no computador.
 
-### 2. Faça um clone do repositório:
+### 🐑 2. Faça um clone do repositório:
 
 ```sh
   $ git clone https://github.com/WernerLuiz92/E-Commerce_BookStore__V2.git
