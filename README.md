@@ -78,7 +78,7 @@ Siga os passos deste tutorial:
     
 [Executando os Containers](.github/docs/containers.md)
 
-### 4. Aliases 
+### 💾 4. Aliases 
 
 Se preferir, você pode configurar no arquivo de configurações do seu terminal ( `~/.zshrc` ou `~/.bashrc` ) alguns _aliases_ que facilitam a execução do projeto.
 
