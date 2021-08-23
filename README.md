@@ -59,26 +59,26 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
 
 ## 🚀 Como Executar o Projeto
 
-- ### _Pré-requisitos_
+- ### 1. _Pré-requisitos_
 
   - É _necessário_ possuir o **[Docker](https://www.docker.com/)** instalado no computador.
   - É _necessário_ possuir o **[Docker Compose](https://docs.docker.com/compose/install/)** instalado no computador.
     - Opcionalmente você pode optar por instalar um servidor apache ou nginx e o PHP diretamente em seu computador, porém serão necessárias configurações adicionais. Uma alternativa podem ser aplicativos como XAMPP e etc...
   - Por fim, é _essencial_ ter o **[Git](https://git-scm.com/)** instalado e configurado no computador.
 
-### 1. Faça um clone do repositório:
+### 2. Faça um clone do repositório:
 
 ```sh
   $ git clone https://github.com/WernerLuiz92/E-Commerce_BookStore__V2.git
 ```
 
-### 2. Executando os conteiners da Aplicação:
+### 3. Executando os conteiners da Aplicação:
 
     Siga os passos deste tutorial:
     
     [Executando os Containers](.github/docs/containers.md)
 
-### Aliases 
+### 4. Aliases 
 
 Se preferir você pode configurar no arquivo de configurações do seu terminal ( `~/.zshrc` ou `~/.bashrc` ) alguns aliases que facilitam a execução do projeto.
 
@@ -91,7 +91,7 @@ alias bks-dev="bks-up; code ."
 alias bks-shell="docker container exec -it BookStore-webServer bash"
 ```
 
-### 3. Executando a Aplicação:
+### 5. Executando a Aplicação:
     
 ```sh
   # Acessando o Shell do container webServer
@@ -108,14 +108,15 @@ alias bks-shell="docker container exec -it BookStore-webServer bash"
     
 ```
 
-### 4. Pronto
+### 6. Pronto
     
 É só acessar [`http://localhost/`](http://localhost/) e pronto
     
+<br/><br/>
     
 ## 🖋 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.<br /><br/>
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes. <br/><br/>
 <img alt="License" src="https://img.shields.io/github/license/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
 
 ---
