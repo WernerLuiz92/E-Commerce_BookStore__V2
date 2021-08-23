@@ -91,7 +91,7 @@ alias bks-dev="bks-up; code ."
 alias bks-shell="docker container exec -it BookStore-webServer bash"
 ```
 
-### 5. Executando a Aplicação:
+### 💻 5. Executando a Aplicação:
     
 ```sh
   # Acessando o Shell do container webServer
