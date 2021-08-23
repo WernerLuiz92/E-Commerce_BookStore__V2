@@ -50,18 +50,12 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
 
 ## 🧰 Tecnologias Utilizadas
 
-- [Axios](https://github.com/axios/axios)
-- [Date-fns](https://date-fns.org/)
-- [Express](https://expressjs.com/)
+- [PHP](https://www.php.net/)
 - [MySQL](https://www.mysql.com/)
-- [Node.js](https://nodejs.org/en/)
-- [NPM](https://www.npmjs.com/)
-- [React Bootstrap](https://react-bootstrap.github.io/)
-- [ReactJS](https://reactjs.org/)
-- [SCSS](https://sass-lang.com/)
-- [Styled Components](https://styled-components.com/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Yarn](https://yarnpkg.com/)
+- [Composer](https://getcomposer.org/)
+- [Doctrine ORM](https://www.doctrine-project.org/projects/orm.html)
+- [Doctrine Migrations](https://www.doctrine-project.org/projects/migrations.html)
+- [PHP dotenv](https://github.com/vlucas/phpdotenv)
 
 ## 🚀 Como Executar o Projeto
 
