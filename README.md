@@ -72,7 +72,7 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
   $ git clone https://github.com/WernerLuiz92/E-Commerce_BookStore__V2.git
 ```
 
-### 3. Executando os conteiners da Aplicação:
+### 🐳 3. Executando os conteiners da Aplicação:
 
 Siga os passos deste tutorial:
     
