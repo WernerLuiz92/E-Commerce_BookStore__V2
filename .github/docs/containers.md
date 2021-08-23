@@ -1,17 +1,19 @@
-# E-Commerce_BookStore__V2
+[Voltar](https://github.com/WernerLuiz92/E-Commerce_BookStore__V2#-como-executar-o-projeto)
+
+# Containers com Docker e Docker-Compose
 
 ## Como executar o projeto?
 
-  ### Esta primeira parte é para executar os containers do projeto.
+  ### Esta primeira parte é para executar o projeto em modo desenvolvimento ou demonstração.
  - Faça clone do repositório e em seguida no seu terminal acesse a pasta raíz do projeto e certifique-se de estar na branch master.
  - Certifique-se de que o Docker e docker-compose estão instalados.
  - Copie o arquivo `sample.env` e renomeie-o para `.env` e ajuste-o conforme as instruções contidas nele.
    - Caso possua outros containers, ou serviços como apache2, nginx, mySql ou outros instalados. Pode ser necessário alterar algumas dessas configurações no  `.env` para evitar conflitos, mas, você pode optar por interromper os serviços temporariamente enquanto testa a aplicação.
  - Através do terminal siga os passos a seguir:
 
-  ### Para executar a aplicação em si siga os passos a seguir:
+  ### Para executar a aplicação em produção veja:
 
-  [Executando a aplicação](www/README.md)
+  [Executando a aplicação](https://github.com/WernerLuiz92/E-Commerce_BookStore__V2/blob/main/README.md#5-executando-a-aplica%C3%A7%C3%A3o)
 
 ## Fazendo build dos containers
 
