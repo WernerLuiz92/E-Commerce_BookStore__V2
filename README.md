@@ -23,6 +23,7 @@
     <img alt="Home Page" src=".github/img/HomePage_Screen.jpeg" />
 <p>
 <br/>
+
 ## 📝 Sobre o Projeto
 
 O _BookStore_ é um projeto desenvolvido como aprendizado, experiência e vivência na área de programação Web. Pensado para ser um plataforma de vendas online do tipo _E-Commerce_. Desenvolvido para ser simples e fácil de utilizar e entender.
