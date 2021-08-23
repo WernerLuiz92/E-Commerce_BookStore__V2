@@ -78,29 +78,39 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
     
     [Executando os Containers](.github/docs/containers.md)
 
+### Aliases 
+
+Se preferir você pode configurar no arquivo de configurações do seu terminal alguns aliases que facilitam a execução do projeto.
+
+```sh
+# BookStore aliases
+alias bks="cd /path/to/the/project/e-commerce_bookstore"
+alias bks-up="bks; docker-compose up -d"
+alias bks-down="bks; docker-compose down"
+alias bks-dev="bks-up; code ."
+alias bks-shell="docker container exec -it BookStore-webServer bash"
+```
 
 3. Executando a Aplicação:
     
 ```sh
-  # API
-  $ cd backend
+  # Acessando o Shell do container webServer
+  $ docker container exec -it BookStore-webServer bash
+ 
   # Instalando as dependências do projeto.
-  $ npm install # yarn install
-  # Inicie a API
-  $ npm start # ou yarn start
+  $ composer install
+    
+  # Atualizando o autoload do composer
+  $ composer dump-autoload
 
-  # CONEXÃO COM BANCO DE DADOS MYSQL
-  # backend > database.ts
-  # mysql://<USUARIO>:<SENHA_MY_SQL>@<SUA_URL>:3306/<NOME_DO_BANCO_DE_DADOS>
-
-  # APLICAÇÃO WEB
-  $ cd frontend
-  # Instalando as dependências do projeto.
-  $ yarn install # ou npm install
-  # Inicie a aplicação web
-  $ yarn start # ou npm start
+  # Executando as migrations
+  $ vendor/bin/doctrine-migrations migrations:migrate
+    
 ```
 
+🚀🚀🚀 É só acessar [http://localhost/](http://localhost/) e pronto
+    
+    
 ## 🖋 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.<br /><br/>
