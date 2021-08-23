@@ -61,19 +61,26 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
 
 - ### _Pré-requisitos_
 
-  - É _necessário_ possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador.
-  - É _necessário_ possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador.
-  - Também, é _preciso_ ter um gerenciador de pacotes seja o **[Yarn](https://yarnpkg.com/)** ou **[NPM](https://www.npmjs.com/)**.
-  - Por fim, é _essencial_ ter o **[MySQL](https://www.mysql.com/)** instalado na máquina.
+  - É _necessário_ possuir o **[Docker](https://www.docker.com/)** instalado no computador.
+  - É _necessário_ possuir o **[Docker Compose](https://docs.docker.com/compose/install/)** instalado no computador.
+    - Opcionalmente você pode optar por instalar um servidor apache ou nginx e o PHP diretamente em seu computador, porém serão necessárias configurações adicionais. Uma alternativa podem ser aplicativos como XAMPP e etc...
+  - Por fim, é _essencial_ ter o **[Git](https://git-scm.com/)** instalado e configurado no computador.
 
 1. Faça um clone do repositório:
 
 ```sh
-  $ git clone https://github.com/WernerLuiz92/URL_Shortener_Pitu.git
+  $ git clone https://github.com/WernerLuiz92/E-Commerce_BookStore__V2.git
 ```
 
-2. Executando a Aplicação:
+2. Executando os conteiners da Aplicação:
 
+    Siga os passos deste tutorial:
+    
+    [Executando os Containers](.github/docs/containers.md)
+
+
+3. Executando a Aplicação:
+    
 ```sh
   # API
   $ cd backend
@@ -97,8 +104,8 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
 ## 🖋 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.<br />
-<img alt="License" src="https://img.shields.io/github/license/WernerLuiz92/URL_Shortener_Pitu?style=for-the-badge">
+<img alt="License" src="https://img.shields.io/github/license/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
 
 ---
 
-<sup>Projeto desenvolvido com a tutoria de [Luiz Duarte](https://github.com/luiztools), da [LuizTools](https://www.luiztools.com.br).</sup>
+<sup>Projeto desenvolvido por [Werner Luiz Gottschalt](https://www.linkedin.com/in/werner-gottschalt/), desenvolvedor FullStack PHP, Laravel, VueJS, MySQL em [Lumiun Tecnologia](https://www.lumiun.com).</sup>
