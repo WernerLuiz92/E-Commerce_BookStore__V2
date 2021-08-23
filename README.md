@@ -80,7 +80,7 @@ Siga os passos deste tutorial:
 
 ### 4. Aliases 
 
-Se preferir você pode configurar no arquivo de configurações do seu terminal ( `~/.zshrc` ou `~/.bashrc` ) alguns aliases que facilitam a execução do projeto.
+Se preferir, você pode configurar no arquivo de configurações do seu terminal ( `~/.zshrc` ou `~/.bashrc` ) alguns _aliases_ que facilitam a execução do projeto.
 
 ```sh
 # BookStore aliases
@@ -110,7 +110,7 @@ alias bks-shell="docker container exec -it BookStore-webServer bash"
 
 ### 6. Pronto
     
-É só acessar [`http://localhost/`](http://localhost/) e pronto
+É só acessar [`http://localhost/`](http://localhost/) e pronto!
     
 <br/><br/>
     
