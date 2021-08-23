@@ -103,7 +103,7 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
 
 ## 🖋 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.<br />
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.<br /><br/>
 <img alt="License" src="https://img.shields.io/github/license/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
 
 ---
