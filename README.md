@@ -20,7 +20,7 @@
 </p>
 <br/>
 <p align="center">
-    <img alt="Home Page" src=".github/img/HomePage_Screen.jpeg" />
+    <img alt="Home Page" src=".github/img/demo.gif" />
 <p>
 <br/>
 
