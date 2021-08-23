@@ -1,7 +1,7 @@
 [Voltar](https://github.com/WernerLuiz92/E-Commerce_BookStore__V2#3-executando-os-conteiners-da-aplica%C3%A7%C3%A3o)
 
 <h1 align="center">
-    <img alt="Logo" src=".github/img/docker.png" height="100px" />
+    <img alt="Docker" src=".github/img/docker.png" height="100px" />
     Containers com Docker e Docker-Compose
 </h1>
 
