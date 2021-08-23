@@ -59,7 +59,7 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
 
 ## 🚀 Como Executar o Projeto
 
-### ✅ 1. _Pré-requisitos_
+### ✔️ 1. _Pré-requisitos_
 
   - É _necessário_ possuir o **[Docker](https://www.docker.com/)** instalado no computador.
   - É _necessário_ possuir o **[Docker Compose](https://docs.docker.com/compose/install/)** instalado no computador.
