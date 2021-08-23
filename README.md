@@ -9,7 +9,7 @@
 
 
 <p align="center">
-    &nbsp;&nbsp;<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
     &nbsp;&nbsp;<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
     &nbsp;&nbsp;<img alt="GitHub" src="https://img.shields.io/github/license/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge"><br/><br/>
     <img alt="GitHub" src="https://img.shields.io/github/v/tag/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge"><br/>
