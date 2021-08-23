@@ -108,7 +108,7 @@ alias bks-shell="docker container exec -it BookStore-webServer bash"
     
 ```
 
-🚀🚀🚀 É só acessar `[http://localhost/](http://localhost/)` e pronto
+🚀🚀🚀 É só acessar [`http://localhost/`](http://localhost/) e pronto
     
     
 ## 🖋 Licença
