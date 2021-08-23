@@ -2,7 +2,7 @@
 
 <h1 align="center">
     <img alt="Docker" src="../img/docker.png" height="100px" />
-    Containers com Docker e Docker-Compose
+    <br>Containers com Docker e Docker-Compose
 </h1>
 
 ## Como executar o projeto?
