@@ -58,9 +58,9 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
 - [PHP dotenv](https://github.com/vlucas/phpdotenv)
    
 ## 🚀 Deployment
-- []()
-- []()
-- []()
+- [Hostinger](https://www.hostinger.com/)
+- [DeployHQ](https://www.deployhq.com/)
+- [Amazon AWS - EC2](https://aws.amazon.com/pt/ec2/?nc2=h_ql_prod_fs_ec2&ec2-whats-new.sort-by=item.additionalFields.postDateTime&ec2-whats-new.sort-order=desc)
 
 ## ⚙️ Como Executar o Projeto
 
