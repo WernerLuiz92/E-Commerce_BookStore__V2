@@ -20,6 +20,7 @@ class PageNotFound implements RequestHandlerInterface
 
         $html = $this->renderView('pageNotFound.php', [
             'title' => '404 - Página não encontrada!',
+            'activePage' => '',
         ]);
 
         return new Response(404, [], $html);
