@@ -3,108 +3,127 @@
     <br>E-Commerce Book Store<br/>
 </h1>
 <h3 align="center">
-  PHP 8.0.7 | MySQL 8.0 | Doctrine ORM 2.6 | Bootstrap 5.1
+  🐘 PHP 8.0.7 | 🐬 MySQL 8.0 | 🎲 Doctrine ORM 2.6 | 🎨 Bootstrap 5.1
 </h3>
 
-
+<br/>
 
 <p align="center">
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
-    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
-    <img alt="GitHub" src="https://img.shields.io/github/license/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge"><br/>
+    &nbsp;&nbsp;<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
+    &nbsp;&nbsp;<img alt="GitHub" src="https://img.shields.io/github/license/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge"><br/><br/>
     <img alt="GitHub" src="https://img.shields.io/github/v/tag/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge"><br/>
-    
 </p>
-
+<br/>
 <p align="center">
-    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.bookstore.com">E-Commerce - www.bookstore.com</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;| 🔗&nbsp;&nbsp;&nbsp;<a href="http://www.wgottschalt.com">www.wgottschalt.com</a>&nbsp;&nbsp;&nbsp;🔗 |&nbsp;&nbsp;&nbsp;
 </p>
-
+<br/>
 <p align="center">
-    <img alt="Home Page" src=".github/img/HomePage_Screen.jpeg" />
+    <img alt="Home Page" src=".github/img/demo.gif" />
 <p>
+<br/>
 
-## Sobre o Projeto
+## 📝 Sobre o Projeto
 
 O _BookStore_ é um projeto desenvolvido como aprendizado, experiência e vivência na área de programação Web. Pensado para ser um plataforma de vendas online do tipo _E-Commerce_. Desenvolvido para ser simples e fácil de utilizar e entender.
 
-### Liguagem e Padrões
+### 📌 Liguagem e Padrões
 
 Utilizando a linguagem de programação PHP na sua versão mais recente (8.0.7) com o banco de dados MySQL também em sua versão mais recente. O projeto segue os padrões de desenvolvimento web modernos. Seguindo o paradigma de Programação Orientada a Objetos e o padrão Model View Controller. Também foi atentado para seguir todas os padrões das PSRs do PHP.
 
-### Frameworks
+### 🛠 Frameworks
 
-O projeto preza por ser mais purista do PHP pois seu proposito é o aprendizado desta linguagem. Por este motivo, optei apenas por utilizar apenas o Doctrine ORM para fazer o Mapeamento Objeto Relacional do Banco de Dados.
+O projeto preza por ser mais purista do PHP pois seu propósito é o aprendizado desta linguagem. Por este motivo, optei apenas por utilizar o Doctrine ORM para fazer o Mapeamento Objeto Relacional do Banco de Dados.
 
-### _Mas, por que BookStore??_
+### 💡 _Mas, por que BookStore??_
 
-Eu amo livros e quando precisei escolher um tema para meu E-Commerce não pensei duas vezes. É considerado um habito muito saudável ler, pois mantém nossa mente ativa e com saude.
+Eu amo livros e quando precisei escolher um tema para meu E-Commerce não pensei duas vezes. É considerado um hábito muito saudável, pois mantém nossa mente ativa e com saúde.
 
-"A leitura de conteúdos de boa qualidade alarga os horizontes da pessoa e amplia as suas possibilidades pela expansão de seu conhecimento, desenvolvimento intelectual e de sua visão de mundo, fortalecendo as convicções pessoais, a capacidade de argumentação e manifestação de opiniões com utilização de um vocabulário mais rico." - Wikipedia
+"A leitura de conteúdos de boa qualidade alarga os horizontes da pessoa e amplia as suas possibilidades pela expansão de seu conhecimento, desenvolvimento intelectual e de sua visão de mundo, fortalecendo as convicções pessoais, a capacidade de argumentação e manifestação de opiniões com utilização de um vocabulário mais rico." - Wikipédia
 
 Logo devemos incentivar a leitura, nos incentivar a ler, mesmo que seja um rótulo de shampoo, ou um artigo de jornal velho.
 
-### O Projeto
+### 📝 O Projeto
 
-Este projeto foi proposto durante o curso _Técnico em Informática_, pelo professor [Dionatan Henrique Santos](#) na turma 424 - competencia C4C4 na [Escola Técnica Estadual 25 de Julho](https://escola25dejulho.com.br/tecnico.php?id=1).
+Este projeto foi proposto durante o curso _Técnico em Informática_, pelo professor [Dionatan Henrique Santos](#), na turma 424 - competência C4C4 na [Escola Técnica Estadual 25 de Julho](https://escola25dejulho.com.br/tecnico.php?id=1).
 
-## Tecnologias Utilizadas
+## 🧰 Tecnologias Utilizadas
 
-- [Axios](https://github.com/axios/axios)
-- [Date-fns](https://date-fns.org/)
-- [Express](https://expressjs.com/)
+- [PHP](https://www.php.net/)
 - [MySQL](https://www.mysql.com/)
-- [Node.js](https://nodejs.org/en/)
-- [NPM](https://www.npmjs.com/)
-- [React Bootstrap](https://react-bootstrap.github.io/)
-- [ReactJS](https://reactjs.org/)
-- [SCSS](https://sass-lang.com/)
-- [Styled Components](https://styled-components.com/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Yarn](https://yarnpkg.com/)
+- [Composer](https://getcomposer.org/)
+- [Doctrine ORM](https://www.doctrine-project.org/projects/orm.html)
+- [Doctrine Migrations](https://www.doctrine-project.org/projects/migrations.html)
+- [PHP dotenv](https://github.com/vlucas/phpdotenv)
+   
+## 🚀 Deployment
+- [Hostinger](https://www.hostinger.com/)
+- [DeployHQ](https://www.deployhq.com/)
+- [Amazon AWS - EC2](https://aws.amazon.com/pt/ec2/?nc2=h_ql_prod_fs_ec2&ec2-whats-new.sort-by=item.additionalFields.postDateTime&ec2-whats-new.sort-order=desc)
 
-## Como Executar o Projeto
+## ⚙️ Como Executar o Projeto
 
-- ### _Pré-requisitos_
+### ✔️ 1. _Pré-requisitos_
 
-  - É _necessário_ possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador.
-  - É _necessário_ possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador.
-  - Também, é _preciso_ ter um gerenciador de pacotes seja o **[Yarn](https://yarnpkg.com/)** ou **[NPM](https://www.npmjs.com/)**.
-  - Por fim, é _essencial_ ter o **[MySQL](https://www.mysql.com/)** instalado na máquina.
+  - É _necessário_ possuir o **[Docker](https://www.docker.com/)** instalado no computador.
+  - É _necessário_ possuir o **[Docker Compose](https://docs.docker.com/compose/install/)** instalado no computador.
+    - Opcionalmente você pode optar por instalar um servidor apache ou nginx e o PHP diretamente em seu computador, porém serão necessárias configurações adicionais. Uma alternativa podem ser aplicativos como XAMPP e etc...
+  - Por fim, é _essencial_ ter o **[Git](https://git-scm.com/)** instalado e configurado no computador.
 
-1. Faça um clone do repositório:
-
-```sh
-  $ git clone https://github.com/WernerLuiz92/URL_Shortener_Pitu.git
-```
-
-2. Executando a Aplicação:
+### 🐑 2. Faça um clone do repositório:
 
 ```sh
-  # API
-  $ cd backend
-  # Instalando as dependências do projeto.
-  $ npm install # yarn install
-  # Inicie a API
-  $ npm start # ou yarn start
-
-  # CONEXÃO COM BANCO DE DADOS MYSQL
-  # backend > database.ts
-  # mysql://<USUARIO>:<SENHA_MY_SQL>@<SUA_URL>:3306/<NOME_DO_BANCO_DE_DADOS>
-
-  # APLICAÇÃO WEB
-  $ cd frontend
-  # Instalando as dependências do projeto.
-  $ yarn install # ou npm install
-  # Inicie a aplicação web
-  $ yarn start # ou npm start
+  $ git clone https://github.com/WernerLuiz92/E-Commerce_BookStore__V2.git
 ```
 
-## Licença
+### 🐳 3. Executando os conteiners da Aplicação:
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.<br />
-<img alt="License" src="https://img.shields.io/github/license/WernerLuiz92/URL_Shortener_Pitu?style=for-the-badge">
+Siga os passos deste tutorial:
+    
+[Executando os Containers](.github/docs/containers.md)
+
+### 💾 4. Aliases 
+
+Se preferir, você pode configurar no arquivo de configurações do seu terminal ( `~/.zshrc` ou `~/.bashrc` ) alguns _aliases_ que facilitam a execução do projeto.
+
+```sh
+# BookStore aliases
+alias bks="cd /path/to/the/project/e-commerce_bookstore"
+alias bks-up="bks; docker-compose up -d"
+alias bks-down="bks; docker-compose down"
+alias bks-dev="bks-up; code ."
+alias bks-shell="docker container exec -it BookStore-webServer bash"
+```
+
+### 💻 5. Executando a Aplicação:
+    
+```sh
+  # Acessando o Shell do container webServer
+  $ docker container exec -it BookStore-webServer bash
+ 
+  # Instalando as dependências do projeto.
+  $ composer install
+    
+  # Atualizando o autoload do composer
+  $ composer dump-autoload
+
+  # Executando as migrations
+  $ vendor/bin/doctrine-migrations migrations:migrate
+    
+```
+
+### 🎉 6. Pronto
+    
+É só acessar [`http://localhost/`](http://localhost/) e pronto!
+    
+<br/><br/>
+    
+## 🖋 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes. <br/><br/>
+<img alt="License" src="https://img.shields.io/github/license/WernerLuiz92/E-Commerce_BookStore__V2?style=for-the-badge">
 
 ---
 
-<sup>Projeto desenvolvido com a tutoria de [Luiz Duarte](https://github.com/luiztools), da [LuizTools](https://www.luiztools.com.br).</sup>
+<sup>Projeto desenvolvido por [Werner Luiz Gottschalt](https://www.linkedin.com/in/werner-gottschalt/), desenvolvedor FullStack PHP, Laravel, VueJS, MySQL em [Lumiun Tecnologia](https://www.lumiun.com).</sup>
