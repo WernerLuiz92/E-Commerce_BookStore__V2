@@ -16,7 +16,7 @@
 </p>
 <br/>
 <p align="center">
-    &nbsp;&nbsp;&nbsp;| 🔗&nbsp;&nbsp;&nbsp;<a href="http://e-commerce.wgottschalt.com">e-commerce.wgottschalt.com</a>&nbsp;&nbsp;&nbsp;🔗 |&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;| 🔗&nbsp;&nbsp;&nbsp;<a href="http://www.wgottschalt.com">www.wgottschalt.com</a>&nbsp;&nbsp;&nbsp;🔗 |&nbsp;&nbsp;&nbsp;
 </p>
 <br/>
 <p align="center">
@@ -56,8 +56,13 @@ Este projeto foi proposto durante o curso _Técnico em Informática_, pelo profe
 - [Doctrine ORM](https://www.doctrine-project.org/projects/orm.html)
 - [Doctrine Migrations](https://www.doctrine-project.org/projects/migrations.html)
 - [PHP dotenv](https://github.com/vlucas/phpdotenv)
+   
+## 🚀 Deployment
+- []()
+- []()
+- []()
 
-## 🚀 Como Executar o Projeto
+## ⚙️ Como Executar o Projeto
 
 ### ✔️ 1. _Pré-requisitos_
 
