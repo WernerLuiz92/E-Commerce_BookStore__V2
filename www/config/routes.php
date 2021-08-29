@@ -1,17 +1,17 @@
 <?php
 
-use Werner\BookStore\Controller\DeleteCourse;
+use Werner\BookStore\Controller\Course\DeleteCourse;
 use Werner\BookStore\Controller\HomePage;
-use Werner\BookStore\Controller\InsertCourse;
-use Werner\BookStore\Controller\ListCourses;
-use Werner\BookStore\Controller\ListCoursesJson;
-use Werner\BookStore\Controller\ListCoursesXML;
-use Werner\BookStore\Controller\LoginForm;
-use Werner\BookStore\Controller\Logout;
+use Werner\BookStore\Controller\Course\InsertCourse;
+use Werner\BookStore\Controller\Course\ListCourses;
+use Werner\BookStore\Controller\Course\ListCoursesJson;
+use Werner\BookStore\Controller\Course\ListCoursesXML;
+use Werner\BookStore\Controller\Auth\LoginForm;
+use Werner\BookStore\Controller\Auth\Logout;
 use Werner\BookStore\Controller\PageNotFound;
-use Werner\BookStore\Controller\Persist;
-use Werner\BookStore\Controller\UpdateCourse;
-use Werner\BookStore\Controller\ValidateLogin;
+use Werner\BookStore\Controller\Course\Persist;
+use Werner\BookStore\Controller\Course\UpdateCourse;
+use Werner\BookStore\Controller\Auth\ValidateLogin;
 
 $routes = [
 ];
