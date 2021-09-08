@@ -33,12 +33,6 @@
                     <li class="nav-item">
                         <a class="nav-link <?= ($activePage == '/') ? 'active' : ''; ?>" href="/">Página Inicial</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?= ($activePage == '/listar-cursos') ? 'active' : ''; ?> <?= (isset($_SESSION['logged_user'])) ? '' : 'disabled'; ?>" href="/listar-cursos">Listar Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?= ($activePage == '/novo-curso') ? 'active' : ''; ?> <?= (isset($_SESSION['logged_user'])) ? '' : 'disabled'; ?>" href="/novo-curso">Cadastrar Curso</a>
-                    </li>
                 </ul>
                 <ul class="navbar-nav">
                     <?php if (!isset($_SESSION['logged_user'])) {?>
@@ -91,7 +85,7 @@
 </main>
 
 <footer class="footer mt-auto py-5 bg-light">
-    <div class="container">
+    <div class="container pt-5">
     <div class="row">
       <div class="col-2">
         <h5>Section</h5>
