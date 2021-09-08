@@ -1,6 +1,6 @@
 <?php
 
-namespace Werner\BookStore\Controller\Course;
+namespace Werner\BookStore\Controller\Hash;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Nyholm\Psr7\Response;
@@ -8,27 +8,27 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 use Werner\BookStore\Helper\HtmlRenderTrait;
-use Werner\BookStore\Model\Entity\Course;
+use Werner\BookStore\Model\Entity\Hash;
 
-class ListCourses implements RequestHandlerInterface
+class ListLinks implements RequestHandlerInterface
 {
     use HtmlRenderTrait;
 
-    private $coursesRepository;
+    private $hashesRepository;
 
     public function __construct(EntityManagerInterface $entityManager)
     {
-        $this->coursesRepository = $entityManager->getRepository(Course::class);
+        $this->hashesRepository = $entityManager->getRepository(Hash::class);
     }
 
     public function handle(ServerRequestInterface $request): ResponseInterface
     {
-        $courses = $this->coursesRepository->findAll();
+        $links = $this->hashesRepository->findAll();
 
-        $html = $this->renderView('courses/listCourses.php', [
-            'title' => 'Lista de Cursos',
-            'activePage' => '/listar-cursos',
-            'courses' => $courses,
+        $html = $this->renderView('hashes/listLinks.php', [
+            'title' => 'Links',
+            'activePage' => '/links',
+            'links' => $links,
         ]);
 
         return new Response(200, [], $html);

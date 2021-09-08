@@ -1,6 +1,6 @@
 <?php
 
-namespace Werner\BookStore\Controller\Course;
+namespace Werner\BookStore\Controller\Hash;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Nyholm\Psr7\Response;
@@ -8,9 +8,9 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 use Werner\BookStore\Helper\FlashMessageTrait;
-use Werner\BookStore\Model\Entity\Course;
+use Werner\BookStore\Model\Entity\Hash;
 
-class DeleteCourse implements RequestHandlerInterface
+class DeleteHash implements RequestHandlerInterface
 {
     use FlashMessageTrait;
 
@@ -28,7 +28,7 @@ class DeleteCourse implements RequestHandlerInterface
         $id = filter_var($queryParams['id'], FILTER_VALIDATE_INT);
 
         $response = new Response(302, [
-            'Location' => '/listar-cursos',
+            'Location' => '/links',
         ]);
 
         if (is_null($id) || $id === false) {
@@ -37,17 +37,17 @@ class DeleteCourse implements RequestHandlerInterface
             return $response;
         }
 
-        $course = $this->entityManager->find(Course::class, $id);
+        $hash = $this->entityManager->find(Hash::class, $id);
 
-        if (is_null($course)) {
+        if (is_null($hash)) {
             $this->setFlashMessage('danger', 'Por favor verifique.', false, 'ID não encontrado!');
 
             return $response;
         }
 
-        $this->setFlashMessage('success', "Curso {$course->getDescription()} excluído!", true);
+        $this->setFlashMessage('success', "Link {$hash->getHash()} excluído!", true);
 
-        $this->entityManager->remove($course);
+        $this->entityManager->remove($hash);
         $this->entityManager->flush();
 
         return $response;

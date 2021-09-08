@@ -1,6 +1,6 @@
 <?php
 
-namespace Werner\BookStore\Controller;
+namespace Werner\BookStore\Controller\Course;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Nyholm\Psr7\Response;
