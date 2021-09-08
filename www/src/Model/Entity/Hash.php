@@ -6,9 +6,9 @@ use JsonSerializable;
 
 /**
  * @Entity
- * @Table(name="course")
+ * @Table(name="hashes")
  */
-class Course implements JsonSerializable
+class Hash implements JsonSerializable
 {
     /**
      * @Id
@@ -19,11 +19,11 @@ class Course implements JsonSerializable
     /**
      * @Column(type="string")
      */
-    private string $description;
+    private string $hash;
 
-    public function __construct(string $description)
+    public function __construct(string $hash)
     {
-        $this->description = $description;
+        $this->hash = base64_encode(trim($hash));
     }
 
     public function getId(): int
@@ -36,21 +36,21 @@ class Course implements JsonSerializable
         $this->id = $id;
     }
 
-    public function getDescription(): string
+    public function getHash(): string
     {
-        return $this->description;
+        return base64_decode($this->hash);
     }
 
-    public function setDescription(string $description): void
+    public function setHash(string $hash): void
     {
-        $this->description = $description;
+        $this->hash = base64_encode(trim($hash));
     }
 
     public function jsonSerialize()
     {
         return [
             'id' => $this->id,
-            'description' => $this->description,
+            'hash' => base64_decode($this->hash),
         ];
     }
 }
