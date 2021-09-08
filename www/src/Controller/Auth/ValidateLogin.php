@@ -49,6 +49,7 @@ class ValidateLogin implements RequestHandlerInterface
 
         $_SESSION['logged_user'] = true;
         $_SESSION['logged_user_name'] = $user->getName();
+        $_SESSION['logged_user_access_level'] = $user->getAccessLevel();
 
         $this->setFlashMessage('info', "Usuário {$_SESSION['logged_user_name']} logado com sucesso!", true);
 

@@ -16,9 +16,14 @@ class User
     private int $id;
 
     /**
-     * @Column(type="string", nullable=true)
+     * @Column(type="string", nullable=false)
      */
     private string $name;
+
+    /**
+     * @Column(type="string", columnDefinition="CHAR(1) NOT NULL", options={"default":"c"})
+     */
+    private string $access_level;
 
     /**
      * @Column(type="string")
@@ -43,6 +48,23 @@ class User
     public function setName($name): self
     {
         $this->name = $name;
+
+        return $this;
+    }
+
+    public function getId(): string
+    {
+        return $this->id;
+    }   
+
+    public function getAccessLevel(): string
+    {
+        return $this->access_level;
+    }
+
+    public function setAccessLevel($access_level): self
+    {
+        $this->access_level = $access_level;
 
         return $this;
     }
